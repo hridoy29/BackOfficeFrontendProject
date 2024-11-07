@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# BackOffice Frontend
 
-First, run the development server:
+This project is a frontend application built with Next.js for the BackOffice platform. It provides an administrative interface for managing courses, students, batches, and other resources essential for running an online course management system.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Table of Contents
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Running the Project](#running-the-project)
+- [Building for Production](#building-for-production)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Course Management**: Create, update, and delete course information.
+- **Student Management**: View and manage student records.
+- **Batch Management**: Organize students into batches and manage batch details.
+- **Analytics Dashboard**: Track key performance metrics (optional).
+- **Responsive Design**: Fully responsive and accessible on different devices.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Tech Stack
 
-## Learn More
+- **Frontend**: [Next.js](https://nextjs.org/) - A React framework with server-side rendering and static site generation
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) or other CSS framework of choice (specify if you’re using any)
+- **API Communication**: Axios or fetch API to interact with backend services
 
-To learn more about Next.js, take a look at the following resources:
+## Prerequisites
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Node.js](https://nodejs.org/) >= 14.x
+- [Yarn](https://yarnpkg.com/) or [npm](https://www.npmjs.com/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Installation
 
-## Deploy on Vercel
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/BackOfficeFrontend.git
+   cd BackOfficeFrontend
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+   Or, if you use Yarn:
+   ```bash
+   yarn install
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Running the Project
+
+1. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+   Or, if you use Yarn:
+   ```bash
+   yarn dev
+   ```
+
+2. Open your browser and navigate to [http://localhost:3000](http://localhost:3000).
+
+The application will be available at [http://localhost:3000](http://localhost:3000).
